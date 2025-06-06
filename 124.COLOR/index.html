@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- CẤU TRÚC CHUNG : PREFIX - COLOR - SHADE -->
+    <!-- 1. Màu chữ (text) -->
+    <p class="text-yellow-400 bg-red-400 mb-3">something</p>
+    <p class="text-[#f22247] mb-3">Màu hex</p>
+    <p class="text-[rgb(0,255,0)] mb-3">Màu hex</p>
+    <!-- 2. Màu nền (background) -->
+    <p class="bg-blue-400 mb-3">Học tailwind tại tuhoc.cc</p>
+
+    <!-- 3. Viền (border) -->
+    <p class="border border-blue-500 mb-3">Viền</p>
+
+    <!-- 4. Gạch chân(underline) -->
+    <p class="underline decoration-red-500">Văn bản được gạch chân</p>
+
+    <!-- 5. Đường chia (divide) -->
+    <div class="divide-y divide-yellow-500 mb-3">
+      <div>Phần 1</div>
+      <div>Phần 2</div>
+      <div>Phần 3</div>
+    </div>
+
+    <!-- 6. outline (viên ngoài) -->
+    <button class="outline outline-red-500">Nút có outline màu đỏ</button>
+
+    <!-- 7. Shadow (đổ bóng)
+     shadow-lg Tạo bóng đổ lớn (large shadow)
+     shadow-purple-500/50 Đặt màu bóng là màu tím (shape 500) với opacity = 50% -->
+    <button class="shadow-lg shadow-purple-500/50%">
+      Nút có đổ bóng màu tím
+    </button>
+
+    <!-- Accent (checkbox, radio) -->
+    <br />
+    <label for=""> <input type="checkbox" checked /> Browser default </label>
+    <label>
+      <input type="checkbox" class="accent-pink-500" checked />
+    </label>
+  </body>
+</html>

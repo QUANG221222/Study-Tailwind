@@ -1,0 +1,4 @@
+@import "tailwindcss";
+:root {
+  --my-image-size: 50% 100%;
+}
